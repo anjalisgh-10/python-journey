@@ -1,4 +1,4 @@
-"my_tuple = (1, 2, 3, "Anjali")
+my_tuple = (1, 2, 3, "Anjali")
 
 print(my_tuple)
 print(type(my_tuple))
