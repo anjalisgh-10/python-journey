@@ -6,11 +6,11 @@ students = {
     "karan": {"math": 70, "science": 45, "english": 63},
 }
 
-ans = dict(
-    sorted(
-        students.items(), key=lambda x: x[1]["math"] + x[1]["science"] +x[1]["english"]
-    )
-)
+# ans = dict(
+#     sorted(
+#         students.items(), key=lambda x: x[1]["math"] + x[1]["science"] +x[1]["english"]
+#     )
+# )
 
 ans = dict(sorted(students.items(), key=lambda x: sum(x[1].values()), reverse=True))
 print(ans)
