@@ -3,6 +3,6 @@ print(my_set)
 print(type(my_set))
 
 # How to create an empty set
-sett = int()
+sett = set()
 print(sett)
 print(type(sett))
