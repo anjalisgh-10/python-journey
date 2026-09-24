@@ -1,0 +1,11 @@
+# Use add() for single elements, and
+# update() for multiple elements from an iterable.
+
+pythonfruits = {"apple", "mango"}
+
+# pythonfruits.add("kiwi")
+# pythonfruits.add("grape")
+# pythonfruits.add("lichi")
+# pythonfruits.add("orange")
+pythonfruits.update(["kiwi", "grape", "lichi", "orange"])
+print(pythonfruits)
