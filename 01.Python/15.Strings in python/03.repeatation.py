@@ -9,7 +9,9 @@ print(first * 10)
 x = "5"
 print(x * 10)
 
-print(first - last)
-print(first * last)
-print(first / last)
-print(first / 5)
+
+# Not allowed
+# print(first - last)
+# print(first * last)
+# print(first / last)
+# print(first / 5)
