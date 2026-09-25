@@ -9,8 +9,13 @@ text = "Programming"
 # print("m" not in text)
 # print("gram" not in text)
 
+# total = 0
+# for ch in text:
+#     if ch == "a" or ch == "e" or ch == "i" or ch == "o" or ch == "u":
+#         total += 1
+# print(total)   
 total = 0
 for ch in text:
-    if ch == "a" or ch == "e" or ch == "i" or ch == "o" or ch == "u":
+    if ch in "aeiouAEIOU":
         total += 1
-print(total)   
+print(total)
