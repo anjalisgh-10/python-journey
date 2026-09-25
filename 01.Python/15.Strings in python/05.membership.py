@@ -14,6 +14,8 @@ text = "Programming"
 #     if ch == "a" or ch == "e" or ch == "i" or ch == "o" or ch == "u":
 #         total += 1
 # print(total)   
+
+
 total = 0
 for ch in text:
     if ch in "aeiouAEIOU":
