@@ -12,5 +12,5 @@ def validate_username(username: str):
     return "Valid"
 
 
-username = " 1Anirudh123"
+username = " 1Anjali123"
 print(validate_username(username))
